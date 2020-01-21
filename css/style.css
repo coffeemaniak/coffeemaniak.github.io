@@ -1,0 +1,90 @@
+body {
+    min-width: 320px;
+    font-size: 24px;
+    font-family: 'Poppins', sans-serif;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+.navbar-brand {
+    font-weight: 500;
+    line-height: 36px;
+    font-size: 36px;
+    text-transform: uppercase;
+    margin: auto;
+    margin-left: 10px;
+}
+
+.navbar-nav {
+    margin-left: 100px;
+}
+
+.nav-link::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: #b5d3d3;
+    transform: scale(0);
+    transition: all .3s;
+}
+
+.nav-link:hover::after {
+    transform: scale(1);
+}
+
+.pos-f-t {
+    display: block;
+}
+
+.category,
+.post-title {
+    margin: 30px 0;
+}
+
+.category a {
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+    color: #ccc;
+    text-decoration: none;
+}
+
+.category a:hover{
+    color: #3b8787;
+    text-decoration: underline #3b8787;
+    transition: all .3s;
+}
+
+.post-title a {
+    font-family: 'Nunito', sans-serif;
+    font-size: 36px;
+    line-height: 36px;
+    text-decoration: none;
+    color: black;
+}
+
+.link-more {
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    color: #ccc;
+    text-decoration: none;
+}
+
+.link-more:hover {
+    color: #3b8787;
+    text-decoration: underline #3b8787;
+    transition: all .3s;
+}
+
+.single-post {
+    margin-bottom: 50px;
+}
